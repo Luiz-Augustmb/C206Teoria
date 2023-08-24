@@ -47,5 +47,9 @@ public class Main {
             }
         }
 
+        System.out.println("Após as tranferências: ");
+        System.out.println("Vida do zumbi 1: " + zumbi1.mostraVida());
+        System.out.println("Vida do zumbi 2: " + zumbi2.mostraVida());
+
     }
 }

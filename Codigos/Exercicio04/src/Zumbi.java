@@ -7,7 +7,7 @@ public class Zumbi {
     }
 
     public boolean transfereVida(Zumbi zumbiAlvo, double quant){
-        if(this.vida > quant){
+        if(this.vida >= quant){
             vida = vida - quant;
             zumbiAlvo.vida = zumbiAlvo.vida + quant;
             return true;
